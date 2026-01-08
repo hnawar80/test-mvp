@@ -18,5 +18,6 @@ export const config = {
     // Recommended matcher: run on all routes except Next internals/static files
     "/((?!_next|.*\\..*).*)",
     "/(api|trpc)(.*)",
+    "/anima-test(.*)",
   ],
 };
